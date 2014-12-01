@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=nm\ amt
+comment0.target=BankAccount(java.lang.String,\ double)
+comment0.text=\n\ Constructor\ for\ the\ class\n\ @param\ nm\ Account\ name\n\ @param\ amt\ Beginning\ balance\n
+comment1.params=dp
+comment1.target=void\ deposit(double)
+comment1.text=\n\ Deposit\ an\ amount\n\ @param\ dp\ Deposit\ amount\n
+comment2.params=wd
+comment2.target=void\ withdraw(double)
+comment2.text=\n\ Withdraw\ an\ amount\n\ @param\ wd\ Withdrawal\ amount\n
+comment3.params=
+comment3.target=double\ getBalance()
+comment3.text=\n\ Get\ balance\n\ @return\ Current\ balance\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\n\ Get\ account\ name\n\ @return\ Account\ name\n
+numComments=5
