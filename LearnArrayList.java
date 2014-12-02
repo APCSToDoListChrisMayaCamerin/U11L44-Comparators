@@ -3,7 +3,7 @@ import java.util.*;
 import java.text.*;
 
 /**
- * A class to learn how the ArrayList class works 
+ * A class to learn how the ArrayList class works
  */
 public class LearnArrayList
 {
