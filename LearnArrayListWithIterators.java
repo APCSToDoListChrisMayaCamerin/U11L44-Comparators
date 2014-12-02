@@ -5,7 +5,7 @@ import java.text.*;
 /**
  * A class to learn how the ArrayList class works
  */
-public class LearnArrayList
+public class LearnArrayListWithIterators
 {
     // Initial names and amounts
     String names[] = {"Harry", "Hermione", "Ron", "Albus", "Bellatrix", "Lupid", "Sirius", "Moaning Myrtle", "Rubeus", "Dobby"};
@@ -30,6 +30,8 @@ public class LearnArrayList
      */
     public BankAccount getLargestBalance() {
         // Use an Iterator object to loop through the accounts in accountList and 
-        // return the account with the largest balance
+        // return the account with the largest balance.  Remember that the for loop
+        // described in the online textbook is incorrect and will not work!!  Use a
+        // while loop with the iterator instead.
     }
 }

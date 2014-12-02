@@ -6,17 +6,17 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * The test class LearnArrayListTest.
+ * The test class LearnArrayListWithIteratorsTest.
  *
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class LearnArrayListTest
+public class LearnArrayListWithIteratorsTest
 {
     /**
-     * Default constructor for test class LearnArrayListTest
+     * Default constructor for test class LearnArrayListWithIteratorsTest
      */
-    public LearnArrayListTest()
+    public LearnArrayListWithIteratorsTest()
     {
     }
 
@@ -43,7 +43,7 @@ public class LearnArrayListTest
     @Test
     public void testAddAccounts()
     {
-        LearnArrayList learnArr2 = new LearnArrayList();
+        LearnArrayListWithIterators learnArr2 = new LearnArrayListWithIterators();
         learnArr2.addAccounts();
         assertEquals(928.72, learnArr2.accountList.get(4).getBalance(), 0.1);
         assertEquals("Bellatrix", learnArr2.accountList.get(4).getName());
@@ -52,7 +52,7 @@ public class LearnArrayListTest
     @Test
     public void testGetLargestBalance()
     {
-        LearnArrayList learnArr1 = new LearnArrayList();
+        LearnArrayListWithIterators learnArr1 = new LearnArrayListWithIterators();
         learnArr1.addAccounts();
         BankAccount largest = learnArr1.getLargestBalance();
         assertEquals((new BankAccount("Dobby", 1716.13)).getName(), largest.getName());
