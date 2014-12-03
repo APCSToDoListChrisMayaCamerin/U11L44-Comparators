@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=acct1\ acct2
+comment0.target=int\ compare(BankAccount,\ BankAccount)
+numComments=1

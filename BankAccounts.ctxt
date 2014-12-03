@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ addAccounts()
+comment0.text=\ \n\ Add\ accounts\ to\ the\ array\ list\ \n
+comment1.params=
+comment1.target=void\ sortAccountsByName()
+comment1.text=\n\ Sort\ the\ accounts\ by\ the\ name\ using\ a\ custom\ Comparator\n
+comment2.params=
+comment2.target=void\ sortAccountsByBalance()
+comment2.text=\n\ Sort\ the\ accounts\ by\ the\ balance\ using\ another\ custom\ Comparator\n
+numComments=3
