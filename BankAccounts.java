@@ -8,7 +8,7 @@ import java.text.*;
 public class BankAccounts 
 {
     // Initial names and amounts
-    String names[] = {"Harry", "Hermione", "Ron", "Albus", "Bellatrix", "Lupid", "Sirius", "Moaning Myrtle", "Rubeus", "Dobby"};
+    String names[] = {"Harry", "Hermione", "Ron", "Albus", "Bellatrix", "Remus", "Sirius", "Moaning Myrtle", "Rubeus", "Dobby"};
     double amounts[] = {10.13, 1249.33, 824.01, 86.86, 928.72, 1612.29, 1220.90, 278.47, 1000.99, 1716.13};
 
     // Declare and initialize a new empty array list
